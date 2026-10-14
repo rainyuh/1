@@ -332,34 +332,15 @@ Steam 是唯一有正式 AI 内容披露要求的平台。它的内容调查问�
 
 ## 参考链接
 
-**官方来源**
-
-- GameSoundCon 2025 游戏音频从业者调查：https://www.gamesoundcon.com/post/gamesoundcon-game-audio-industry-survey-2025
-- Steamworks 内容调查（AI 披露要求）：https://partner.steamgames.com/doc/gettingstarted/contentsurvey
-- GEMA 胜诉 Suno 官方公告：https://www.gema.de/en/w/gema-prevails-over-suno
-
-**技术说明**
-
 - Stability AI：游戏配乐里的 AI 该放在什么位置（音乐那一章主要依据这篇）：https://stability.ai/explainers/adaptive-procedural-game-soundtrack-ai-what-it-is-and-where-the-model-fits
-
-**案例与视频**
-
-- Eurogamer：Arc Raiders 用真人重录 AI 台词：https://www.eurogamer.net/arc-raiders-ceo-says-studio-has-re-recorded-ai-lines-a-real-professional-actor-is-better-than-ai-thats-just-how-it-is
-- 游戏制作工具箱：自适应可变的游戏原声（B 站中译，配合音乐那一章看）：https://www.bilibili.com/video/BV1wV411s7RX/
+- GameSoundCon 2025 游戏音频从业者调查：https://www.gamesoundcon.com/post/gamesoundcon-game-audio-industry-survey-2025
 
 ---
 
 ## 附：这次调研的一些不足
 
-最后补充几点，免得看的时候被误导：
+最后补充两点，免得看的时候被误导：
 
-1. **有些内容我只找到了媒体报道，没找到官方原文。** 比如 SAG-AFTRA 那个"7.5 倍片酬"，我是从几家媒体的报道里看到的，没打开协议原文核对。这类内容我在正文里都标了。
+1. **有些内容我只找到了媒体报道，没找到官方原文。** 比如 SAG-AFTRA 那个"7.5 倍片酬"，我没打开协议原文核对；价格和模型版本也都有时效性，这里写的都是 2026 年 10 月的情况。
 
-2. **价格和模型版本变得很快。** 报告里的价格都是 2026 年 10 月的情况，可能过几个月就变了。
-
-3. **有几个问题我确实没查到答案**，写作业时如果要用，别自己编：
-   - "游戏音频预算占制作总成本的百分之几"，我没找到权威数字；
-   - "某款 3A 游戏的配乐官方确认用了 AI"，我没找到可靠证据——现在能确认的案例基本都是独立游戏或中小体量作品，而且大多伴随争议；
-   - 中国厂商在"AI 音效生成"上的官方落地案例，我没查到，公开的信息主要都集中在 AI 配音和 AI NPC 上。
-
-4. **查资料的时候要小心。** 我在搜索时发现，工具对比类的文章里有不少是 AI 生成的 SEO 内容，里面出现过**编造的案子名称和日期**。所以看这类内容最好找有署名或机构背书的来源。
+2. **有几个问题我确实没查到答案**，写作业时别自己编：游戏音频预算占总成本的百分比、"某款 3A 游戏官方确认用 AI 配乐"的确证案例（现在能确认的基本都是独立游戏，且多有争议）、以及中国厂商在 AI 音效生成上的落地案例。另外提醒一句，搜索时看到不少工具对比文章是 AI 生成的 SEO 内容，里面出现过**编造的案子名称和日期**，引用要小心。
