@@ -332,10 +332,18 @@ Steam 是唯一有正式 AI 内容披露要求的平台。它的内容调查问�
 
 ## 参考链接
 
+**官方来源**
+
 - GameSoundCon 2025 游戏音频从业者调查：https://www.gamesoundcon.com/post/gamesoundcon-game-audio-industry-survey-2025
 - Steamworks 内容调查（AI 披露要求）：https://partner.steamgames.com/doc/gettingstarted/contentsurvey
 - GEMA 胜诉 Suno 官方公告：https://www.gema.de/en/w/gema-prevails-over-suno
+
+**技术说明**
+
 - Stability AI：游戏配乐里的 AI 该放在什么位置（音乐那一章主要依据这篇）：https://stability.ai/explainers/adaptive-procedural-game-soundtrack-ai-what-it-is-and-where-the-model-fits
+
+**案例与视频**
+
 - Eurogamer：Arc Raiders 用真人重录 AI 台词：https://www.eurogamer.net/arc-raiders-ceo-says-studio-has-re-recorded-ai-lines-a-real-professional-actor-is-better-than-ai-thats-just-how-it-is
 - 游戏制作工具箱：自适应可变的游戏原声（B 站中译，配合音乐那一章看）：https://www.bilibili.com/video/BV1wV411s7RX/
 
