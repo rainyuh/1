@@ -332,13 +332,3 @@ Steam 是唯一有正式 AI 内容披露要求的平台。它的内容调查问�
 
 - Stability AI：游戏配乐里的 AI 该放在什么位置（音乐那一章主要依据这篇）：https://stability.ai/explainers/adaptive-procedural-game-soundtrack-ai-what-it-is-and-where-the-model-fits
 - GameSoundCon 2025 游戏音频从业者调查：https://www.gamesoundcon.com/post/gamesoundcon-game-audio-industry-survey-2025
-
----
-
-## 附：这次调研的一些不足
-
-最后补充两点，免得看的时候被误导：
-
-1. **有些内容我只找到了媒体报道，没找到官方原文。** 比如 SAG-AFTRA 那个"7.5 倍片酬"，我没打开协议原文核对；价格和模型版本也都有时效性，这里写的都是 2026 年 10 月的情况。
-
-2. **有几个问题我确实没查到答案**，写作业时别自己编：游戏音频预算占总成本的百分比、"某款 3A 游戏官方确认用 AI 配乐"的确证案例（现在能确认的基本都是独立游戏，且多有争议）、以及中国厂商在 AI 音效生成上的落地案例。另外提醒一句，搜索时看到不少工具对比文章是 AI 生成的 SEO 内容，里面出现过**编造的案子名称和日期**，引用要小心。
