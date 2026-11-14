@@ -2,7 +2,7 @@
 
 > 2026 SHU 基础实践 · 期末作业
 > 场景：深秋雨夜，学校附近街角的末班公交站。
-> 原始素材音频在audio，过程截图在images，最终效果demo做了两份在preview，一份纯声音，一份在soundcaster。
+> 原始素材音频在audio，过程截图在images，最终效果demo做了两份在preview，一份纯声音，一份在soundcaster界面录制的视频。以及wwise工程文件
 
 ![雨夜公交站场景概念图](images/scene.jpg)
 
