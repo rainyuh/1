@@ -22,7 +22,7 @@
 |---|---|---|
 | 近场基底 | 雨打站台顶棚 | 建立“站在棚下”的亲密感 |
 | 远场基底 | 雨打湿沥青 + 远处车流 | 建立街道空间和城市纵深，比近场低约 6 dB |
-| 事件 | 车过积水 ×3 | 道路方向、距离变化 |
+| 事件 | 车过积水  | 道路方向、距离变化 |
 | 事件 | 便利店门铃 | 站牌后方的店门细节 |
 | 事件 | 电瓶车喇叭 | 便利店与公交站之间的非机动车道 |
 | 事件 | 公交气刹 + 门 | 末班车进站的叙事点 |
@@ -44,17 +44,11 @@
 
 详细处理方式见 [`docs/asset-list.md`](docs/asset-list.md) 和 [`docs/asset-manifest.json`](docs/asset-manifest.json)。
 
-## 试听
-
-[`preview/rain_scene_demo.mp3`](preview/rain_scene_demo.mp3)（75 s，192 kbps MP3）
-
-时间线：0–7 s 基底建立 → 7 s 门铃 → 13 s 车过 01 → 23 s 电瓶车 → 29 s 车过 02 → 37 s 公交进站 → 45 s 车过 03 → 51 s 门铃 → 58 s 车过 01 → 66 s 车过 02 → 72 s 电瓶车 → 75 s 淡出。
-
 ### 演示视频
 
 [`preview/wwise_soundcaster_demo.mp4`](preview/wwise_soundcaster_demo.mp4)（33 s，1080p，Wwise Soundcaster 录屏）
 
-按 [`docs/demo-script.md`](docs/demo-script.md) 的顺序演示：两条雨声铺底 → 门铃 → 车过（多次触发，可听出 Random Container 在 3 条变体间随机切换）→ 电瓶车 → 公交进站 → 收雨声。
+按 [`docs/demo-script.md`](docs/demo-script.md) 的顺序演示：两条雨声铺底 → 门铃 → 车过→ 电瓶车 → 公交进站 → 收雨声。
 
 ## Wwise 实现
 
@@ -112,12 +106,6 @@ README 顶部的场景概念图由 GPT 图像生成，仅用于说明公交站�
 
 仓库中不包含原始素材文件，只保留剪辑、处理后的成品资产。站点汇总见 [`docs/sources.csv`](docs/sources.csv)。
 
-## 如何打开
-
-1. 安装 Wwise **2025.1.11.9262**。
-2. 打开 `wwise/RainyBusStop/RainyBusStop.wproj`。
-3. 在 Soundcaster Session 中加载 `RainyBusStop` session，点击播放。
-4. 如果音频丢失，检查 `Originals/` 或重新链接到 `audio/` 下的同名 WAV。
 
 ## 仓库结构
 
@@ -150,8 +138,4 @@ Final/
       └─ Originals/           # Wwise 导入的源文件
 ```
 
-## 提交信息
 
-- 课程：2026 SHU 基础实践
-- 姓名：rainyuh
-- 学号：不写入公开仓库（放在提交邮件中）
