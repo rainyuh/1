@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7435B83D-91B2-471A-9496-3DE393283AFF}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{7435B83D-91B2-471A-9496-3DE393283AFF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="RainyBusStop" ID="{EF8F0F68-A67E-4E11-A797-CF2F24684E8E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_AMB_RainShelter" ID="{25CCFBFB-2D6E-4467-AD63-4CB8B2998B84}" WorkUnitID="{FBD243BE-21B8-4E20-8A6F-5032251C7120}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_EBike_Horn" ID="{4CFA4B97-4590-4C75-BB99-8AF4C1157077}" WorkUnitID="{FBD243BE-21B8-4E20-8A6F-5032251C7120}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AMB_RainStreet" ID="{472A6F79-089A-41B4-8854-76B4AF3A5673}" WorkUnitID="{FBD243BE-21B8-4E20-8A6F-5032251C7120}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_StoreDoor_Chime" ID="{C0647F7E-3F94-481C-84F8-C308E5D9CB5C}" WorkUnitID="{FBD243BE-21B8-4E20-8A6F-5032251C7120}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_CarPass" ID="{BF4C50CF-A0E6-40EF-AF9D-C1DB53471D68}" WorkUnitID="{FBD243BE-21B8-4E20-8A6F-5032251C7120}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_AMB_RainShelter" ID="{C80AD3B0-6235-4288-8327-23C2E21E6ACA}" WorkUnitID="{FBD243BE-21B8-4E20-8A6F-5032251C7120}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Bus_AirBrakeDoor" ID="{C36FEC8E-2AE8-4D89-B69A-E0379D964368}" WorkUnitID="{FBD243BE-21B8-4E20-8A6F-5032251C7120}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_AMB_RainStreet" ID="{F4A1A889-C7D4-408A-9921-B1D353828943}" WorkUnitID="{FBD243BE-21B8-4E20-8A6F-5032251C7120}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

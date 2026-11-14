@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FBD243BE-21B8-4E20-8A6F-5032251C7120}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{FBD243BE-21B8-4E20-8A6F-5032251C7120}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_AMB_RainShelter" ID="{25CCFBFB-2D6E-4467-AD63-4CB8B2998B84}">
+					<ChildrenList>
+						<Action Name="" ID="{2FA32C8A-0025-4372-A299-AAEFF3779AE4}" ShortID="271376373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Rain_Shelter_Loop" ID="{3BCE4634-3FBC-4C1F-8A57-8059B63CE56E}" WorkUnitID="{81BBD866-282A-443F-9283-DAF234BBC734}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_RainStreet" ID="{472A6F79-089A-41B4-8854-76B4AF3A5673}">
+					<ChildrenList>
+						<Action Name="" ID="{E36171AD-23B1-4054-8768-6AE4248088BB}" ShortID="633315788">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Rain_Street_Loop" ID="{67A022E7-8E06-46EA-8DF7-7B7CB51A9EDE}" WorkUnitID="{81BBD866-282A-443F-9283-DAF234BBC734}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_StoreDoor_Chime" ID="{C0647F7E-3F94-481C-84F8-C308E5D9CB5C}">
+					<ChildrenList>
+						<Action Name="" ID="{252CE403-6AF7-4CC7-A6A3-B893D9857FC4}" ShortID="740778344">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_StoreDoor_Chime" ID="{5F1E1213-3951-4AD0-B35E-A29BFC42229C}" WorkUnitID="{81BBD866-282A-443F-9283-DAF234BBC734}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_EBike_Horn" ID="{4CFA4B97-4590-4C75-BB99-8AF4C1157077}">
+					<ChildrenList>
+						<Action Name="" ID="{7A9F36B6-7C23-43B9-A03A-CE7A8978EEDC}" ShortID="727942244">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_EBike_Horn" ID="{AE8DB511-7C8D-4D96-9679-2077890E64E4}" WorkUnitID="{81BBD866-282A-443F-9283-DAF234BBC734}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Bus_AirBrakeDoor" ID="{C36FEC8E-2AE8-4D89-B69A-E0379D964368}">
+					<ChildrenList>
+						<Action Name="" ID="{CB21CDA8-B1FF-4703-BA73-8595971B8366}" ShortID="358325931">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Bus_AirBrake_Door" ID="{3C22B922-C40D-481E-834B-577D109007ED}" WorkUnitID="{81BBD866-282A-443F-9283-DAF234BBC734}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_CarPass" ID="{BF4C50CF-A0E6-40EF-AF9D-C1DB53471D68}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E6CF927C-0116-4F76-AADC-E701434933CE}" ShortID="913562998">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_CarPass" ID="{085DF9A2-936E-49CD-A09A-4227656F7CD3}" WorkUnitID="{81BBD866-282A-443F-9283-DAF234BBC734}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMB_RainShelter" ID="{C80AD3B0-6235-4288-8327-23C2E21E6ACA}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{3CEAC07F-FFD4-4DEE-BDDC-9BEF8F32E937}" ShortID="181111765">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Rain_Shelter_Loop" ID="{3BCE4634-3FBC-4C1F-8A57-8059B63CE56E}" WorkUnitID="{81BBD866-282A-443F-9283-DAF234BBC734}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMB_RainStreet" ID="{F4A1A889-C7D4-408A-9921-B1D353828943}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{3A3C690A-53B0-42AF-B1EF-6A568F0F7067}" ShortID="223448376">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Rain_Street_Loop" ID="{67A022E7-8E06-46EA-8DF7-7B7CB51A9EDE}" WorkUnitID="{81BBD866-282A-443F-9283-DAF234BBC734}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

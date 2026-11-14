@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{81BBD866-282A-443F-9283-DAF234BBC734}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{81BBD866-282A-443F-9283-DAF234BBC734}" PersistMode="Standalone">
+			<ChildrenList>
+				<PropertyContainer Name="Ambience" ID="{BFC2C032-AD33-45E1-9E66-3DC9DE90B735}" ShortID="985309585">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C79A7F78-C153-4960-9B3E-ED06BF913D84}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01976758-B7B4-43D9-AFD9-2D2A80F56CDF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMB_Rain_Shelter_Loop" ID="{3BCE4634-3FBC-4C1F-8A57-8059B63CE56E}" ShortID="141728376">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C79A7F78-C153-4960-9B3E-ED06BF913D84}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01976758-B7B4-43D9-AFD9-2D2A80F56CDF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Rain_Shelter_Loop_40s" ID="{C52D3843-DA9A-4BDB-AF6F-3E9C217D8E7B}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\AMB_Rain_Shelter_Loop_40s.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="226294141"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Rain_Shelter_Loop_40s" ID="{C52D3843-DA9A-4BDB-AF6F-3E9C217D8E7B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Rain_Street_Loop" ID="{67A022E7-8E06-46EA-8DF7-7B7CB51A9EDE}" ShortID="166287637">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C79A7F78-C153-4960-9B3E-ED06BF913D84}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01976758-B7B4-43D9-AFD9-2D2A80F56CDF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Rain_Street_Loop_40s" ID="{33C2EA4F-A0AE-4B75-857E-EB99695857A5}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\AMB_Rain_Street_Loop_40s.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="146265576"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Rain_Street_Loop_40s" ID="{33C2EA4F-A0AE-4B75-857E-EB99695857A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</PropertyContainer>
+				<PropertyContainer Name="StreetEvents" ID="{22C65A9B-3F8A-4998-B810-5AB73FE54432}" ShortID="686446942">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C79A7F78-C153-4960-9B3E-ED06BF913D84}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01976758-B7B4-43D9-AFD9-2D2A80F56CDF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_CarPass" ID="{085DF9A2-936E-49CD-A09A-4227656F7CD3}" ShortID="962672445">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_CarPass" ID="{C909FB75-DE63-4892-BCA5-7B09B1B79FFC}" WorkUnitID="{7994C043-8DAD-4853-9FAC-8D9A5C41FB47}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C79A7F78-C153-4960-9B3E-ED06BF913D84}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01976758-B7B4-43D9-AFD9-2D2A80F56CDF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_CarPass_Wet_01" ID="{7A84702E-03AD-485D-B37F-5C44196B62D8}" ShortID="353301497">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C79A7F78-C153-4960-9B3E-ED06BF913D84}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01976758-B7B4-43D9-AFD9-2D2A80F56CDF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_CarPass_Wet_01" ID="{A70FC5AA-4596-4F6A-90B5-8F7D78CB2938}">
+											<Language>SFX</Language>
+											<AudioFile>OneShots\SFX_CarPass_Wet_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="732014879"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_CarPass_Wet_01" ID="{A70FC5AA-4596-4F6A-90B5-8F7D78CB2938}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_CarPass_Wet_02" ID="{C807AD55-C158-4000-9028-A3A9FAD76BA9}" ShortID="665977798">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C79A7F78-C153-4960-9B3E-ED06BF913D84}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01976758-B7B4-43D9-AFD9-2D2A80F56CDF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_CarPass_Wet_02" ID="{D71D0602-48C7-4CF4-9416-CDBFB2D79645}">
+											<Language>SFX</Language>
+											<AudioFile>OneShots\SFX_CarPass_Wet_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="503501717"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_CarPass_Wet_02" ID="{D71D0602-48C7-4CF4-9416-CDBFB2D79645}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_CarPass_Wet_03" ID="{C4748D64-AD0B-4F03-A69C-BA5C5598772F}" ShortID="644076907">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C79A7F78-C153-4960-9B3E-ED06BF913D84}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01976758-B7B4-43D9-AFD9-2D2A80F56CDF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_CarPass_Wet_03" ID="{6FC604BE-1CCE-433F-BFCB-65AC033DE474}">
+											<Language>SFX</Language>
+											<AudioFile>OneShots\SFX_CarPass_Wet_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="497214055"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_CarPass_Wet_03" ID="{6FC604BE-1CCE-433F-BFCB-65AC033DE474}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="SFX_StoreDoor_Chime" ID="{5F1E1213-3951-4AD0-B35E-A29BFC42229C}" ShortID="644434647">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Chime" ID="{53DF7DB3-BC4E-4477-8355-1F79F379D580}" WorkUnitID="{7994C043-8DAD-4853-9FAC-8D9A5C41FB47}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C79A7F78-C153-4960-9B3E-ED06BF913D84}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01976758-B7B4-43D9-AFD9-2D2A80F56CDF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_StoreDoor_Chime_01" ID="{7EA0E89B-585D-407E-B129-75A50D15AE14}">
+									<Language>SFX</Language>
+									<AudioFile>OneShots\SFX_StoreDoor_Chime_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="857973264"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_StoreDoor_Chime_01" ID="{7EA0E89B-585D-407E-B129-75A50D15AE14}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_EBike_Horn" ID="{AE8DB511-7C8D-4D96-9679-2077890E64E4}" ShortID="659544486">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Horn" ID="{7CA9A9B3-A1B3-4E2D-AEDA-FA21A10F6C19}" WorkUnitID="{7994C043-8DAD-4853-9FAC-8D9A5C41FB47}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C79A7F78-C153-4960-9B3E-ED06BF913D84}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01976758-B7B4-43D9-AFD9-2D2A80F56CDF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_EBike_Horn_01" ID="{E5BC9295-ED91-437E-B196-B5F00CDD58AB}">
+									<Language>SFX</Language>
+									<AudioFile>OneShots\SFX_EBike_Horn_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="407151230"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_EBike_Horn_01" ID="{E5BC9295-ED91-437E-B196-B5F00CDD58AB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Bus_AirBrake_Door" ID="{3C22B922-C40D-481E-834B-577D109007ED}" ShortID="725712179">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Bus" ID="{E8DA3F07-8B90-4ABE-B197-B10C331D0197}" WorkUnitID="{7994C043-8DAD-4853-9FAC-8D9A5C41FB47}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C79A7F78-C153-4960-9B3E-ED06BF913D84}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01976758-B7B4-43D9-AFD9-2D2A80F56CDF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Bus_AirBrake_Door_01" ID="{FF5DF3F8-51E0-4DD8-8036-266FC3716718}">
+									<Language>SFX</Language>
+									<AudioFile>OneShots\SFX_Bus_AirBrake_Door_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="759003744"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Bus_AirBrake_Door_01" ID="{FF5DF3F8-51E0-4DD8-8036-266FC3716718}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</PropertyContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>
